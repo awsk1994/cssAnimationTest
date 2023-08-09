@@ -1,3 +1,29 @@
+# Tailwind Notes
+
+ - Tutorial: https://tailwindcss.com/docs/guides/create-react-app
+ 
+1. npm install tailwindcss
+2. npx tailwindcss init
+3. configure tailwind.config.js, add:
+```
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+```
+4. add tailwind directives to css (./src/index.css)
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+5. npm run start
+6. Test
+```html
+<h1 className="text-3xl font-bold underline">
+    Hello world!
+</h1>
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
