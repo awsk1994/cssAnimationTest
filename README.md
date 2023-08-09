@@ -143,3 +143,9 @@ return (
     - can set pathLength and animation on svg
     - see video: https://www.youtube.com/watch?v=ILxNdOtKbNQ&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=15
 
+ - loader
+     - https://www.youtube.com/watch?v=uxjMjXNZV_4&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=16
+
+ - cycleLoader
+     - almost like useState, but used for cycling between animations
+
