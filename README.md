@@ -155,3 +155,8 @@ return (
  - tutorial github: https://github.com/TomIsLoading/framer-parallax
  - my implementation: /parallax
      - commit: https://github.com/awsk1994/cssAnimationTest/commit/125642b05e83d71f3c6e304f727e870bc036b414
+
+### Tailwindcss
+
+ - https://tailwindcss.com/docs/guides/create-react-app
+
