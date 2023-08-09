@@ -18,13 +18,14 @@ export const Collaboration = () => {
         [0.1, 0.25, 0.7, 1],
         ["0%", "-55%", "-60%", "-80%"]
     );
+    const opacity = useTransform(scrollYProgress, [0.9, 1], [1, 0]);
 
     return (
         <section className="mt-[-30vh]">
             <div ref={targetRef} className="h-[300vh] w-full">
                 <div className="sticky top-[10vh]">
                     <div className="flex justify-center">
-                        <motion.div style={{x, scale}} className="origin-top">
+                        <motion.div style={{x, scale, opacity}} className="origin-top">
                             <img
                                 src="/main-screen.svg"
                                 className="h-[75vh] max-h-[45w] w-auto"
