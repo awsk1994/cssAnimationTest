@@ -1,3 +1,37 @@
+# Notes
+
+ - Sometimes, we can add a lot of height (eg. 300vh, 3 times the screen view) so we have space to keep scrolling (and let our animation run)
+```html
+<section className="relative z-10 mt-[-30vh] h-[300vh]">
+```
+
+ - Pretty common to have a \<section> on the outer layer, and a \<div> inside.
+     - the section will be used for 'ref'
+     - the div will be used to set height (repeating the above, we sometimes set a longer vh to allow for animation)
+```html
+<section ref={targetRef}>
+    <div className="relative h-[800vh]">
+...
+```
+
+ - Sometimes, it's hard to keep track which frames is doing what. You might want to use something like this:
+```js
+const animationOrder = {
+  initial: 0,
+  fadeInEnd: 0.15,
+  showParagraphOne: 0.25,
+  ...
+  endTextFadeInStart: 0.95,
+  endTextFadeInEnd: 1,
+};
+```
+
+ - Note that finding the right numbers to make the animation work does take time
+
+
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -4,6 +4,7 @@ import './App.css';
 
 import { Hero } from './components/hero';
 import { Collaboration } from './components/collaboration';
+import { SamePage } from './components/same-page';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Hero />
       <div className="relative z-10 w-full overflow-x-clip">
         <Collaboration />
-        {/* <SamePage />
-          <StreamlinedExperience />
+        <SamePage />
+        {/* <StreamlinedExperience />
           <Features />
           <MoreFeatures />
           <NoLockin /> */}
