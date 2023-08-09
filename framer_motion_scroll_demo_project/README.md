@@ -28,7 +28,7 @@ const animationOrder = {
 
  - Note that finding the right numbers to make the animation work does take time
 
-
+ - For big animations, use opacity to 'hide' objects
 
 <hr>
 

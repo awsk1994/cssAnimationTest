@@ -5,6 +5,7 @@ import './App.css';
 import { Hero } from './components/hero';
 import { Collaboration } from './components/collaboration';
 import { SamePage } from './components/same-page';
+import { StreamlinedExperience } from './components/streamlined-experience';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       <div className="relative z-10 w-full overflow-x-clip">
         <Collaboration />
         <SamePage />
-        {/* <StreamlinedExperience />
-          <Features />
+        <StreamlinedExperience />
+        {/* <Features />
           <MoreFeatures />
           <NoLockin /> */}
       </div>
@@ -45,7 +46,7 @@ function App() {
 
 function RandomText() {
   return (
-    <h1>
+    <h1 className="text-white">
       You disposal strongly quitting his endeavor two settling him. Manners ham him hearted hundred expense. Get open game him what hour more part. Adapted as smiling of females oh me journey exposed concern. Met come add cold calm rose mile what. Tiled manor court at built by place fanny. Discretion at be an so decisively especially. Exeter itself object matter if on mr in.
       Be at miss or each good play home they. It leave taste mr in it fancy. She son lose does fond bred gave lady get. Sir her company conduct expense bed any. Sister depend change off piqued one. Contented continued any happiness instantly objection yet her allowance. Use correct day new brought tedious. By come this been in. Kept easy or sons my it done.
       Ladyship it daughter securing procured or am moreover mr. Put sir she exercise vicinity cheerful wondered. Continual say suspicion provision you neglected sir curiosity unwilling. Simplicity end themselves increasing led day sympathize yet. General windows effects not are drawing man garrets. Common indeed garden you his ladies out yet. Preference imprudence contrasted to remarkably in on. Taken now you him trees tears any. Her object giving end sister except oppose.

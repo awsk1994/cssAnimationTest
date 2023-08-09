@@ -3,7 +3,6 @@ import { useRef } from "react";
 
 export const Collaboration = () => {
     const targetRef = useRef<HTMLDivElement | null>(null);
-
     const { scrollYProgress } = useScroll({
         target: targetRef,
         offset: ["end end", "end start"],
