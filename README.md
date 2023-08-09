@@ -151,5 +151,6 @@ return (
 
 ### Parallax Tutorial
 
-
-
+ - https://www.youtube.com/watch?v=29UWA-GdA7k
+ - tutorial github: https://github.com/TomIsLoading/framer-parallax
+ - my implementation: /parallax
