@@ -154,3 +154,4 @@ return (
  - https://www.youtube.com/watch?v=29UWA-GdA7k
  - tutorial github: https://github.com/TomIsLoading/framer-parallax
  - my implementation: /parallax
+     - commit: https://github.com/awsk1994/cssAnimationTest/commit/125642b05e83d71f3c6e304f727e870bc036b414
