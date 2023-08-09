@@ -13,10 +13,10 @@ import sample from './sample.mp4';
 ## Framer Motion
      - https://www.framer.com/motion/
 
-### Tutorial and Notes
+### Basic API Tutorial and Notes
  - https://www.youtube.com/watch?v=o7enGcf8x1s&t=133s
 
-### Notes
+#### Notes
  - add <motion.\<html element>> to add motion attribute to component
  - initial
      - css/framer motion configurations at the start of animation
@@ -148,4 +148,8 @@ return (
 
  - cycleLoader
      - almost like useState, but used for cycling between animations
+
+### Parallax Tutorial
+
+
 
